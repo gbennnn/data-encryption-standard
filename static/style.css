@@ -26,3 +26,14 @@ button {
   background-color: #ffe0e0;
   color: red;
 }
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: #d4d4d4;
+  text-align: center;
+  padding: 10px 0;
+  box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.05);
+}

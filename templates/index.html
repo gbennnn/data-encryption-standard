@@ -13,12 +13,23 @@
     <h2>Enkripsi DES</h2>
     <form method="POST">
       <label>Plaintext:</label>
-      <textarea name="plaintext" required></textarea>
+      <textarea
+        name="plaintext"
+        required
+        placeholder="Masukkan plaintext di sini"
+        rows="7"
+      ></textarea>
 
       <label>Kunci (8 karakter):</label>
-      <input type="text" name="key" maxlength="8" required />
+      <input
+        type="text"
+        name="key"
+        maxlength="8"
+        required
+        placeholder="Contoh: rahasia1"
+      />
 
-      <button type="submit">Enkripsi</button>
+      <button type="submit" style="cursor: pointer">Enkripsi</button>
     </form>
 
     {% if result %}
@@ -29,5 +40,15 @@
     {% endif %} {% if error %}
     <div class="error"><strong>Error:</strong> {{ error }}</div>
     {% endif %}
+
+    <footer>
+      <p style="margin: 0">
+        <a
+          href="https://github.com/gbennnn/data-encryption-standard"
+          target="_blank"
+          >GitHub Repository</a
+        >
+      </p>
+    </footer>
   </body>
 </html>
