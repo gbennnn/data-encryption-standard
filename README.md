@@ -88,4 +88,3 @@ This project is licensed under the [MIT License](LICENSE). Feel free to use and 
 
 Contributions, feedback, and ideas are welcome! Fork this repo and submit a pull request if you'd like to improve it or add new features.
 
-```
