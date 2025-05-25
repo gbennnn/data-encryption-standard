@@ -88,3 +88,9 @@ This project is licensed under the [MIT License](LICENSE). Feel free to use and 
 
 Contributions, feedback, and ideas are welcome! Fork this repo and submit a pull request if you'd like to improve it or add new features.
 
+---
+## Preview
+
+![image](https://github.com/user-attachments/assets/9feeb4cd-0d97-4629-ba0f-50c3475ec501)
+
+
