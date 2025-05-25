@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data Encryption Standard</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+  </head>
+  <body>
+    <h2>Enkripsi DES</h2>
+    <form method="POST">
+      <label>Plaintext:</label>
+      <textarea name="plaintext" required></textarea>
+
+      <label>Kunci (8 karakter):</label>
+      <input type="text" name="key" maxlength="8" required />
+
+      <button type="submit">Enkripsi</button>
+    </form>
+
+    {% if result %}
+    <div class="result">
+      <strong>Hasil Enkripsi (hex):</strong><br />
+      {{ result }}
+    </div>
+    {% endif %} {% if error %}
+    <div class="error"><strong>Error:</strong> {{ error }}</div>
+    {% endif %}
+  </body>
+</html>
