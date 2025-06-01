@@ -79,6 +79,6 @@ Contributions, feedback, and ideas are welcome! Fork this repo and submit a pull
 ---
 ## Preview
 
-![image](https://github.com/user-attachments/assets/9feeb4cd-0d97-4629-ba0f-50c3475ec501)
+![image-des-web](https://github.com/user-attachments/assets/9feeb4cd-0d97-4629-ba0f-50c3475ec501)
 
 
